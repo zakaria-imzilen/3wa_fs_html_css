@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <div class="form_group">
+                <label for="salutation">Salutation</label>
+                <br>
+                <select name="salutation" id="salutation">
+                    <option value="" disabled selected>-- None --</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+
+            <div class="form_group">
+                <label for="first_name">First Name: </label><input type="text" name="first_name" id="first_name">
+            </div>
+
+            <div class="form_group">
+                <label for="last_name">Last Name: </label><input type="text" name="last_name" id="last_name">
+            </div>
+
+            <div class="form_group">
+                <label for="gender">Gender: </label>
+                <input type="radio" name="gender" id="male" value="Male">
+                <span>Male</span>
+                <input type="radio" name="gender" id="female" value="Female">
+                <span>Female</span>
+            </div>
+
+            <div class="form_group">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form_group">
+                <label for="email">Date of birth: </label>
+                <input type="date" name="date_birth" id="date_birth">
+            </div>
+
+            <div class="form_group">
+                <label for="email">Address: </label>
+                <br>
+                <textarea name="" id="" cols="30" rows="3"></textarea>
+            </div>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
